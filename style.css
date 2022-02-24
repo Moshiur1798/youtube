@@ -187,7 +187,40 @@ nav{
 }
 /* Endof main body css */
 
+/* Play Video CSS */
+
+.play-container{
+  padding-left: 2%;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.play-video{
+  flex-basis: 69%;
+}
+.right-sidebar{
+  flex-basis: 30%;
+}
+.play-video video{
+  width: 100%;
+}
+.side-video-list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.side-video-list img{
+  width: 100#;
+}
+.side-video-list small-thumbnils{
+  flex-basis: 45;
+}
+
+
 /* Media query */
+
 @media (max-width: 900px){
   .menu-icon{
     display: none;
